@@ -9,9 +9,6 @@ module System.Taffybar.Widget
   -- * "System.Taffybar.Widget.CommandRunner"
   , module System.Taffybar.Widget.CommandRunner
 
-  -- * "System.Taffybar.Widget.Crypto"
-  , module System.Taffybar.Widget.Crypto
-
   -- * "System.Taffybar.Widget.DiskIOMonitor"
   , module System.Taffybar.Widget.DiskIOMonitor
 
@@ -48,9 +45,6 @@ module System.Taffybar.Widget
   -- * "System.Taffybar.Widget.Text.NetworkMonitor"
   , module System.Taffybar.Widget.Text.NetworkMonitor
 
-  -- * "System.Taffybar.Widget.Weather"
-  , module System.Taffybar.Widget.Weather
-
   -- * "System.Taffybar.Widget.Windows"
   , module System.Taffybar.Widget.Windows
 
@@ -64,7 +58,6 @@ module System.Taffybar.Widget
 import System.Taffybar.Widget.Battery
 import System.Taffybar.Widget.CPUMonitor
 import System.Taffybar.Widget.CommandRunner
-import System.Taffybar.Widget.Crypto
 import System.Taffybar.Widget.DiskIOMonitor
 import System.Taffybar.Widget.FSMonitor
 import System.Taffybar.Widget.FreedesktopNotifications
@@ -78,7 +71,6 @@ import System.Taffybar.Widget.Text.CPUMonitor
 import System.Taffybar.Widget.Text.MemoryMonitor
 import System.Taffybar.Widget.Text.NetworkMonitor
 import System.Taffybar.Widget.Util
-import System.Taffybar.Widget.Weather
 import System.Taffybar.Widget.Windows
 import System.Taffybar.Widget.Workspaces
 import System.Taffybar.Widget.XDGMenu.MenuWidget
