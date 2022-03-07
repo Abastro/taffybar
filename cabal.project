@@ -1,3 +1,1 @@
 packages: ./
-
-allow-newer: HStringTemplate:template-haskell, HStringTemplate:bytestring
