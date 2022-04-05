@@ -1,1 +1,4 @@
 packages: ./
+
+allow-newer: coinbase-pro:*
+with-compiler: ghc-9.2.2

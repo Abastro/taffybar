@@ -43,6 +43,7 @@ import           System.Taffybar.Widget.Generic.AutoSizeImage
 import           System.Taffybar.Widget.Generic.ChannelWidget
 import           System.Taffybar.WindowIcon
 import           Text.Printf
+import Data.String
 
 -- | Extends 'cryptoPriceLabel' with an icon corresponding to the symbol of the
 -- purchase crypto that will appear to the left of the price label. See the
@@ -139,6 +140,6 @@ getCryptoIconFromCMC' cmcAPIKey symbol = do
 getIconURIFromJSON :: String -> LBS.ByteString -> Maybe Data.Text.Text
 getIconURIFromJSON symbol jsonText =
   decode jsonText >>= parseMaybe
-           ((.: "data") >=> (.: Data.Text.pack symbol) >=> (.: "logo"))
+           ((.: "data") >=> (.: fromString symbol) >=> (.: "logo"))
 
 
